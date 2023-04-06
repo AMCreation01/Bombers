@@ -17,9 +17,9 @@ def main():
     driver = webdriver.Chrome(ChromeDriverManager().install())  # 2nd change
     driver.get('https://web.whatsapp.com/')
 
-    name = input('Enter the name of user or group: ')
-    msg = input('Enter your message: ')
-    count = int(input('Enter the count: '))
+    name = input('Enter the name of user or group: 8768167745')
+    msg = input('Enter your message: I Love You Mona')
+    count = int(input('Enter the count: 100000'))
 
     input('Enter any key after scanning QR code')
 
